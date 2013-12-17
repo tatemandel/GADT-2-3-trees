@@ -41,7 +41,7 @@ for the use of GADTs. GHC version 7.6.3 is a known working version.
 
 ###Running/Compiling (Profiling):
 In the `Profiling` directory, compile and run as follows:
-`% ghc -O2 --make concurrency.lhs -prof -auto-all -caf-all -fforce-recomp -rtsopts`  
+`% ghc -O2 --make Profiling.hs -prof -auto-all -caf-all -fforce-recomp -rtsopts`  
 `% ./Profiling +RTS -p`  
 Then, navigate to `Profiling.prof` to view the output.
 
